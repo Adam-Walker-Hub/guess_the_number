@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-image: url('./image1.jpg');    
+    position: relative;
+}
+.container {
+    background-color:rgba(0, 0, 0, 0.8) ;
+    margin: 1% 30%;
+    width: 40%;
+    height: 700px;
+    border-radius: 20px;        
+}
+h1 {
+    padding-top: 5%;
+    width: 100%;    
+    text-align: center;
+    color:white;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.numbers {
+    width: 100%;
+    text-align: center;
+    margin-top: 5%;        
+}
+#sayı{
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;
+    font-size: xxx-large;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#check {
+    width: 30%;
+    height: 80px;
+    border-radius: 10px;    
+    background-color: blue;
+    color: rgb(240, 255, 254);
+    font-size: xxx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+#ikaz{
+    
+    margin-top: 30px;
+    color: antiquewhite;
+    font-size: xx-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.img{ 
+    margin-top: 10%;
+    margin-left: 35%;
+    display: none;
+    }
+.img img{    
+    width: 140px;
+    height: 140px;    
+}
+
+.text {
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;    
+}
+h2 {
+    margin-bottom: 5%;
+}
+#count{
+    font-size: large;
+    padding-bottom: 10%;
+}
+
+#count{    
+    color: yellow;
+    font-size: xx-large;
+}
